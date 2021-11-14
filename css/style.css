@@ -1,0 +1,154 @@
+:root {
+  --primary-color: hsl(33, 100%, 50%);
+  --bg-color: hsl(33, 100%, 5%);
+  --link-color: hsl(39, 100%, 50%);
+}
+
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* text selection color */
+::-moz-selection {
+  background: rgba(255, 166, 0, 0.5);
+  color: #fff;
+}
+
+::selection {
+  background: rgba(255, 166, 0, 0.5);
+  color: #fff;
+}
+
+/* scroll bar customization */
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #404040 #888;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: auto;
+}
+
+*::-webkit-scrollbar-track {
+  background: #888;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #404040;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: #888;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-height: 100vh;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.visual-div {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-div {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  color: #808080;
+}
+
+.s-one,
+.s-two,
+.s-three {
+  font-size: 10vw;
+  color: var(--primary-color);
+  padding: 1vw;
+}
+
+.info-para {
+  font-size: 1.5vw;
+  padding: 1.5vw;
+  padding-top: 0.1vw;
+  margin-top: -1.5vw;
+  margin-bottom: 1.5vw;
+}
+
+.btn-div {
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-div a {
+  margin: 1rem auto;
+  font-size: 1.5vw;
+  border-radius: 2vw;
+  padding: 0.9vw 2.7vw;
+  transition: 0.3s;
+  background-color: var(--bg-color);
+  color: var(--link-color);
+  border: 0.2vw solid var(--link-color);
+}
+
+@media (max-width: 800px) {
+  .s-one,
+  .s-two,
+  .s-three {
+    font-size: 20vw;
+  }
+
+  .info-para {
+    font-size: 5vw;
+    padding: 1.5vw;
+  }
+
+  .btn-div {
+    margin-top: 2vw;
+    padding: 6vw;
+  }
+
+  .btn-div a {
+    font-size: 4vw;
+    border-radius: 6vw;
+    padding: 2vw 6vw;
+    transition: 0.3s;
+    border: 0.6vw solid var(--link-color);
+  }
+}

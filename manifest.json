@@ -1,0 +1,127 @@
+{
+  "name": "Pwa Webapp",
+  "short_name": "PwaWebapp",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "categories": [
+    "social"
+  ],
+  "description": "This is a webapp which is made for testing purpose of its pwa features.",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/screenshots/screenshot_01.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/screenshots/screenshot_02.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/screenshots/screenshot_03.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Page 1",
+      "url": "/pages/page-1.html",
+      "icons": [
+        {
+          "src": "/img/icons/shortcut_icon_01.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Page 2",
+      "url": "/pages/page-2.html",
+      "icons": [
+        {
+          "src": "/img/icons/shortcut_icon_02.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Page 3",
+      "url": "/pages/page-3.html",
+      "icons": [
+        {
+          "src": "/img/icons/shortcut_icon_03.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Page 4",
+      "url": "/pages/page-4.html",
+      "icons": [
+        {
+          "src": "/img/icons/shortcut_icon_04.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
