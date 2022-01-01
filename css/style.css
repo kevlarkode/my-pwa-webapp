@@ -152,3 +152,31 @@ main {
     border: 0.6vw solid var(--link-color);
   }
 }
+
+#install {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 0.25em solid var(--link-color);
+  margin: 1rem;
+  font-size: 1.5vw;
+  border-radius: 2vw;
+  padding: 1.5vw;
+  transition: 0.3s;
+  background-color: var(--bg-color);
+  color: var(--link-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#install svg {
+  width: 3em;
+}
+
+@media (max-width: 800px) {
+  #install svg {
+    width: 10em;
+  }
+}
